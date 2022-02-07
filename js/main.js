@@ -1,11 +1,7 @@
 let dowolna = document.querySelector('p');
 
-console.log(dowolna);
+console.log(document.querySelector('p'));
 
+dowolna.textContent = "zadanie";
 
-
-p = element.textContent
-
-element.textContent = ("przykładowy tekst");
-document.getElement("p").textContent = "przykładowy tekst";
-console.log('przykladowy tekst');
+console.log('zadanie');
